@@ -1,5 +1,5 @@
-let value = 1
 
+function number(value) {
 switch (value) {
     case 1:
         console.log("ONE")
@@ -30,3 +30,6 @@ switch (value) {
         break;
     default: console.log("PLEASE TRY AGAIN")
     }
+}
+
+console.log(number(1));
