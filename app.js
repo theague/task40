@@ -1,35 +1,26 @@
-
 function number(value) {
-switch (value) {
-    case 1:
-        console.log("ONE")
-        break;
-    case 2:
-        console.log("TWO")
-        break;
-    case 3:
-        console.log("THREE")
-        break;   
-    case 4:
-        console.log("FOUR")
-        break;
-    case 5:
-        console.log("FIVE")
-        break;
-    case 6:
-        console.log("SIX")
-        break;    
-    case 7:
-        console.log("SEVEN")
-        break;
-    case 8:
-        console.log("EIGHT")
-        break;
-    case 9:
-        console.log("NINE")
-        break;
-    default: console.log("PLEASE TRY AGAIN")
+    switch (value) {
+        case 1:
+            return "ONE";
+        case 2:
+            return "TWO";
+        case 3:
+            return "THREE";   
+        case 4:
+            return "FOUR";
+        case 5:
+            return "FIVE";
+        case 6:
+            return "SIX";    
+        case 7:
+            return "SEVEN";
+        case 8:
+            return "OCHO";
+        case 9:
+            return "NINE";
+        default: 
+            return "PLEASE TRY AGAIN";
+        }
     }
-}
-
-console.log(number(1));
+    
+    console.log(number(8));
